@@ -1,0 +1,17 @@
+.headerContainer {
+  top: 25%;
+  text-align: center;
+}
+
+.headerText {
+  display: inline-block;
+  font-size: x-large;
+  border: 3px solid black;
+  padding: 8px;
+}
+
+.headerLink {
+  display: inline-block;
+  color: inherit;
+  text-decoration: underline;
+}
