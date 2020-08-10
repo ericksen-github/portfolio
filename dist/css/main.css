@@ -1,3 +1,7 @@
+html {
+  font-family: sans-serif;
+}
+
 header {
   height: 90vh;
 }
@@ -51,8 +55,47 @@ header {
 }
 
 #about {
-  height: 500px;
-  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  padding: 10rem 0px 10rem;
+  border-bottom: 4rem solid darkblue;
+}
+
+h3 {
+  position: absolute;
+  font-weight: bold;
+  top: 5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+#aboutImage {
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(255, 173, 173);
+  text-align: center;
+  margin: 0 3rem 0 0;
+}
+
+#aboutText {
+  width: 50%;
+  color: rgb(25, 25, 25);
+  text-align: left;
+  margin-left: 4rem;
+  margin-right: 2rem;
+  letter-spacing: 0.6px;
+  text-align: left;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.5rem;
 }
 
 #blank {
