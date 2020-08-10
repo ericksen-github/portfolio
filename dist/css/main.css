@@ -1,6 +1,6 @@
 html {
   font-family: sans-serif;
-  background-color: rgb(240, 240, 240);
+  background-color: #edf2f4;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 .headerText {
   display: inline-block;
   font-size: 1.75rem;
-  border: 0.5rem solid black;
+  border: 0.5rem solid #293241;
   padding: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -31,8 +31,12 @@ header {
 }
 
 #navbar {
+  box-shadow: inset 0px -3px 7px 0px #353e4d;
+  background: linear-gradient(to bottom, #293241 5%, #212c41 100%);
+  background-color: #293241;
+  color: #f2f2f2;
+  text-decoration: none;
   overflow: hidden;
-  background-color: rgb(51, 51, 51);
   text-align: center;
   z-index: 10;
 }
@@ -46,14 +50,21 @@ header {
 }
 
 #navbar a:hover {
-  color: #333;
-  background-color: #f2f2f2;
+  color: black;
+  background-color: #98c1d9;
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.borderBreak {
+  height: 2rem;
+  box-shadow: inset 0px -3px 7px 0px rgb(67, 99, 141);
+  background: linear-gradient(to bottom, #3d5a80 5%, rgb(51, 84, 126) 100%);
+  background-color: #3d5a80;
 }
 
 #about {
@@ -63,7 +74,6 @@ header {
   width: 100%;
   position: relative;
   padding: 15rem 0px 10rem;
-  border-bottom: 4rem solid darkblue;
 }
 
 #aboutTitle {
@@ -79,7 +89,7 @@ header {
   display: block;
   height: 200px;
   width: 200px;
-  background-color: rgb(255, 173, 173);
+  background-color: #3d5a80;
   text-align: center;
   margin: 0 3rem 0 0;
 }
