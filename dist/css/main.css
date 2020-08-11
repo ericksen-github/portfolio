@@ -1,6 +1,7 @@
 html {
   font-family: sans-serif;
   background-color: #edf2f4;
+  scroll-behavior: smooth;
 }
 
 header {
