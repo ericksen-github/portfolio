@@ -135,3 +135,17 @@ header {
 #blank {
   height: 1000px;
 }
+
+#githubLogo {
+  height: 4rem;
+  width: 4rem;
+  background-color: #293241;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+#linkedinLogo {
+  height: 5.5rem;
+  width: 6rem;
+  cursor: pointer;
+}
