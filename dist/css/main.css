@@ -186,3 +186,15 @@ header {
 li {
   margin-left: 1rem;
 }
+
+#contact {
+  text-align: center;
+}
+
+.iconsContainer {
+  margin: 1rem;
+}
+
+.logo {
+  margin: 1rem;
+}
