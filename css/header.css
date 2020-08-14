@@ -25,25 +25,51 @@ header {
 }
 
 .headerTextWrapper {
-  border-radius: 5px;
   position: relative;
   overflow: hidden;
   text-align: center;
   color: #fff;
   background-color: #293241;
   text-decoration: none;
+  animation-name: bgColor;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
-.headerTextWrapper:hover {
-  background-color: #f1f1f1 !important;
+@keyframes bgColor {
+  0% {
+    background-color: #293241;
+  }
+  100.0% {
+    background-color: #f1f1f1;
+  }
 }
 
 .headerAni {
-  position: relative;
-  transition: 0.3s ease;
+  animation-name: textColor;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
-.headerTextWrapper:hover .headerAni {
-  color: #293241;
+
+@keyframes textColor {
+  0% {
+    color: white;
+  }
+  100% {
+    color: #293241;
+  }
+}
+
+.txtBefore {
+  right: 0;
+  bottom: 0;
+}
+
+.txtAfter {
+  left: 0;
+  top: 0;
 }
 
 .txtBefore,
@@ -54,21 +80,12 @@ header {
   width: 0;
   border: solid #293241;
   border-width: 0;
-  border-radius: 0;
   transition: 0;
   box-sizing: border-box;
   border-color: #293241;
   border-radius: 5px;
 }
 
-.headerTextWrapper .txtBefore {
-  right: 0;
-  bottom: 0;
-}
-.headerTextWrapper .txtAfter {
-  left: 0;
-  top: 0;
-}
 .headerTextWrapper:hover .txtBefore {
   border-width: 0 0 0.5rem 0.5rem;
 }
