@@ -1,9 +1,12 @@
+// Updates current displayed project by swapping in prewritten html using backticks
+
 const updateCurrentProject = (selected) => {
   const imgEle = document.getElementById("currentProjectImg");
   const textEle = document.getElementById("currentProjectText");
 
   if (selected == "weightTracker") {
     imgEle.src = "./imgs/gifs/chartCapture.gif";
+    s;
     imgEle.alt = "Weight Tracker gif";
     textEle.innerHTML = `Weight tracking app using Chart.js
     <br/><br/>
