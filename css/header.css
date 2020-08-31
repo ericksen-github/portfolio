@@ -22,6 +22,10 @@ header {
   display: inline-block;
   font-size: 1.75rem;
   padding: 2.5rem;
+  animation-name: textColor;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .headerTextWrapper {
@@ -44,13 +48,6 @@ header {
   100.0% {
     background-color: #ffffff00;
   }
-}
-
-.headerAni {
-  animation-name: textColor;
-  animation-delay: 1s;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
 }
 
 @keyframes textColor {
@@ -91,22 +88,6 @@ header {
 }
 .headerTextWrapper:hover .txtAfter {
   border-width: 0.5rem 0.5rem 0 0;
-}
-
-.headerAni {
-  animation-name: textColor;
-  animation-delay: 1s;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes textColor {
-  0% {
-    color: white;
-  }
-  100% {
-    color: #293241;
-  }
 }
 
 .headerTextWrapper:hover .txtAfter,
