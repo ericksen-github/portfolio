@@ -180,3 +180,14 @@ li {
 .logo {
   margin: 1rem;
 }
+
+footer {
+  height: 2rem;
+  line-height: 2rem;
+  box-shadow: inset 0px -3px 7px 0px rgb(67, 99, 141);
+  background: linear-gradient(to bottom, #3d5a80 5%, rgb(51, 84, 126) 100%);
+  background-color: #3d5a80;
+  color: #f2f2f2;
+  text-decoration: none;
+  text-align: center;
+}
