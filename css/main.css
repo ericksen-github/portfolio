@@ -139,6 +139,7 @@ html {
 
 .projectLinks {
   position: relative;
+  display: block;
   width: 100%;
   transition: 0.3s;
 }
