@@ -4,6 +4,7 @@ const updateCurrentProject = (selected) => {
 
   if (selected == "weightTracker") {
     imgEle.src = "./imgs/gifs/chartCapture.gif";
+    imgEle.alt = "Weight Tracker gif";
     textEle.innerHTML = `Weight tracking app using Chart.js
     <br/><br/>
     Record weight, calories, exercise, and protein to keep track over time of your progress and visualize 
@@ -24,6 +25,7 @@ const updateCurrentProject = (selected) => {
     `;
   } else if (selected == "library") {
     imgEle.src = "./imgs/gifs/libraryCapture.gif";
+    imgEle.alt = "Library gif";
     textEle.innerHTML = `Reading list app made with React
     <br/><br/>
     Record books that you've read or wanting to read.
@@ -43,6 +45,7 @@ const updateCurrentProject = (selected) => {
     `;
   } else if (selected == "etch") {
     imgEle.src = "./imgs/gifs/etchAsketchCapture.gif";
+    imgEle.alt = "Etch a Sketch gif";
     textEle.innerHTML = `Etch a sketch app made using Javascript
     <br/><br/>
     Enjoy the function of an etch a sketch on your computer!
@@ -61,6 +64,7 @@ const updateCurrentProject = (selected) => {
     `;
   } else if (selected == "calc") {
     imgEle.src = "./imgs/gifs/calculatorCapture.gif";
+    imgEle.alt = "Calculator gif";
     textEle.innerHTML = `Basic calculator made using Javascript
     <br/><br/>
     A basic calculator made as part of the front-end curriculum with The Odin Project.
@@ -75,6 +79,7 @@ const updateCurrentProject = (selected) => {
     `;
   } else if (selected == "todo") {
     imgEle.src = "./imgs/gifs/todoCapture.gif";
+    imgEle.alt = "Todo List gif";
     textEle.innerHTML = `Todo list tracker made using Javascript
     <br/><br/>
     Record items for various lists and have them organized into projects. 
