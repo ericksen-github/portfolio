@@ -59,18 +59,18 @@ header {
   }
 }
 
-.txtBefore {
+#txtBefore {
   right: 0;
   bottom: 0;
 }
 
-.txtAfter {
+#txtAfter {
   left: 0;
   top: 0;
 }
 
-.txtBefore,
-.txtAfter {
+#txtBefore,
+#txtAfter {
   content: "";
   position: absolute;
   height: 0;
@@ -81,24 +81,6 @@ header {
   box-sizing: border-box;
   border-color: #293241;
   border-radius: 5px;
-}
-
-.headerTextWrapper:hover .txtBefore {
-  border-width: 0 0 0.5rem 0.5rem;
-}
-.headerTextWrapper:hover .txtAfter {
-  border-width: 0.5rem 0.5rem 0 0;
-}
-
-.headerTextWrapper:hover .txtAfter,
-.headerTextWrapper:hover .txtBefore {
-  height: 100%;
-  width: 100%;
-  transition: width 0.5s ease, height 0.5s ease 0.5s,
-    border-top-right-radius 0.1s ease 0.4s,
-    border-bottom-left-radius 0.1s ease 0.4s,
-    border-bottom-right-radius 0.1s ease 0.9s,
-    border-top-left-radius 0.1s ease 0.9s;
 }
 
 #floatBarWrap {
