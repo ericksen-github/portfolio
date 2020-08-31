@@ -42,7 +42,7 @@ header {
     background-color: #293241;
   }
   100.0% {
-    background-color: #ffffff;
+    background-color: #ffffff00;
   }
 }
 
@@ -93,6 +93,22 @@ header {
   border-width: 0.5rem 0.5rem 0 0;
 }
 
+.headerAni {
+  animation-name: textColor;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes textColor {
+  0% {
+    color: white;
+  }
+  100% {
+    color: #293241;
+  }
+}
+
 .headerTextWrapper:hover .txtAfter,
 .headerTextWrapper:hover .txtBefore {
   height: 100%;
@@ -102,4 +118,30 @@ header {
     border-bottom-left-radius 0.1s ease 0.4s,
     border-bottom-right-radius 0.1s ease 0.9s,
     border-top-left-radius 0.1s ease 0.9s;
+}
+
+#floatBarWrap {
+  width: 100px;
+}
+
+.floatingBar {
+  z-index: -1;
+  width: 200rem;
+  height: 30rem;
+  top: 30rem;
+  left: -55rem;
+  opacity: 0.85;
+  position: absolute;
+  background-color: #3d5a80;
+  animation: 25s linear 0s infinite normal none running floatBar;
+}
+
+@keyframes floatBar {
+  0% {
+    transform: rotate(60deg);
+  }
+
+  100% {
+    transform: rotate(240deg);
+  }
 }
