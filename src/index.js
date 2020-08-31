@@ -7,10 +7,15 @@ window.onscroll = function () {
 };
 
 const linksArray = ["weightTracker", "library", "etch", "calc", "todo"];
-const links = document.getElementsByClassName("projectLinks");
+const links = document.getElementsByClassName("imgWrap");
 
+// Adds listeners to swap selected project with active class to the selected button (highlight it)
+// also adds listener for swapping project display
 for (let i = 0; i < links.length; i++) {
-  links[i].addEventListener("click", () => {
+  links[i].addEventListener("click", (e) => {
+    const current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    e.target.parentElement.className += " active";
     updateCurrentProject(linksArray[i]);
   });
 }
