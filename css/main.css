@@ -155,14 +155,16 @@ html {
   transition: 0.5s;
 }
 
-.imgWrap:hover .projectLinks {
+.imgWrap:hover .projectLinks,
+.active .projectLinks {
   opacity: 0.3;
 }
 
-.imgWrap:hover .imgDescription {
+.imgWrap:hover .imgDescription,
+.active .imgDescription {
   visibility: visible;
   opacity: 1;
-  bottom: 50%;
+  bottom: 40%;
 }
 
 #projectsGithubLinkText {
