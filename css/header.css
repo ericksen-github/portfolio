@@ -23,7 +23,7 @@ header {
   font-size: 1.75rem;
   padding: 2.5rem;
   animation-name: textColor;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
@@ -36,7 +36,7 @@ header {
   background-color: #293241;
   text-decoration: none;
   animation-name: bgColor;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
