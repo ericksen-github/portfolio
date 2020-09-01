@@ -194,6 +194,7 @@ body {
   padding: 0.75rem;
   cursor: pointer;
 }
+
 #linkedinLogo {
   height: 5.5rem;
   width: 6rem;
@@ -226,4 +227,88 @@ footer {
   color: #f2f2f2;
   text-decoration: none;
   text-align: center;
+}
+
+@media (max-device-width: 1024px) {
+  #about {
+    padding-top: 10rem;
+  }
+
+  #aboutTitle {
+    top: 5rem;
+  }
+
+  #aboutText {
+    font-size: 1.4rem;
+  }
+
+  #currentProjectText {
+    font-size: 1.15rem;
+  }
+
+  .imgWrap:hover .imgDescription,
+  .active .imgDescription {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-device-width: 900px) {
+  .currentProjectContainer {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  #currentProjectImg {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  #currentProjectText {
+    width: 90%;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-device-width: 768px) {
+  .floatingBar {
+    top: 20rem;
+    left: -65rem;
+  }
+
+  #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 15rem 0px 10rem;
+    background-color: #f5f5f5;
+  }
+
+  #aboutTitle {
+    position: absolute;
+    font-weight: bold;
+    top: 10rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+  }
+
+  #portraitImg {
+    width: 200px;
+    text-align: center;
+    margin: 0 3rem 0 0;
+  }
+
+  #aboutText {
+    width: 50%;
+    color: rgb(25, 25, 25);
+    text-align: left;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    letter-spacing: 0.6px;
+    text-align: left;
+
+    font-size: 1.5rem;
+  }
 }
