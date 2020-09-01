@@ -243,6 +243,7 @@ footer {
   }
 
   #currentProjectText {
+    margin-left: 0;
     font-size: 1.15rem;
   }
 
@@ -265,6 +266,7 @@ footer {
 
   #currentProjectText {
     width: 90%;
+    margin: auto;
     font-size: 1.25rem;
   }
 }
@@ -276,39 +278,133 @@ footer {
   }
 
   #about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    text-align: center;
     width: 100%;
     position: relative;
-    padding: 15rem 0px 10rem;
-    background-color: #f5f5f5;
+    padding: 8rem 0px 5rem;
   }
 
   #aboutTitle {
-    position: absolute;
-    font-weight: bold;
-    top: 10rem;
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
+    position: relative;
+    top: 0rem;
   }
 
   #portraitImg {
-    width: 200px;
-    text-align: center;
-    margin: 0 3rem 0 0;
+    position: relative;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   #aboutText {
-    width: 50%;
-    color: rgb(25, 25, 25);
-    text-align: left;
-    margin-left: 4rem;
-    margin-right: 2rem;
-    letter-spacing: 0.6px;
-    text-align: left;
-
+    width: 90%;
+    position: relative;
+    margin: auto;
     font-size: 1.5rem;
+  }
+}
+
+@media (max-device-width: 700px) {
+  .imgWrap:hover .imgDescription,
+  .active .imgDescription {
+    height: 100%;
+    width: 100%;
+    background-color: #293241;
+    color: #293241;
+    bottom: 0%;
+    opacity: 0.4;
+  }
+}
+
+@media (max-device-width: 600px) {
+  .headerContainer a {
+    font-size: 1.25rem;
+  }
+
+  .headerText {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+
+  #portraitImg {
+    width: 150px;
+  }
+
+  .currentProjectContainer {
+    margin-bottom: 1rem;
+  }
+
+  #githubLogo {
+    margin: -0.5rem 0.25rem -0.5rem 0.25rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+  }
+
+  #linkedinLogo {
+    margin: -0.5rem 0.25rem -0.5rem 0.25rem;
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+}
+
+@media (max-device-width: 480px) {
+  .headerContainer a {
+    font-size: 1.25rem;
+  }
+
+  .headerText {
+    font-size: 1.25rem;
+    padding: 1.75rem;
+  }
+
+  #aboutTitle {
+    margin-bottom: 3rem;
+  }
+  #portraitImg {
+    display: none;
+  }
+  #aboutText {
+    font-size: 0.9rem;
+  }
+
+  #currentProjectText {
+    font-size: 0.9rem;
+  }
+
+  .imgWrap {
+    width: 15%;
+  }
+
+  #projectsGithubLinkText {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+}
+
+@media (max-device-width: 480px) {
+  #navbar a {
+    padding: 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  #aboutTitle {
+    font-size: 1.25rem;
+  }
+
+  #aboutText {
+    font-size: 0.8rem;
+  }
+
+  #projectsTitle {
+    font-size: 1.25rem;
+  }
+
+  #currentProjectText {
+    width: 100%;
+    font-size: 0.8rem;
   }
 }

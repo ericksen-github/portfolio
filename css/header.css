@@ -77,7 +77,7 @@ a:visited {
 
 .floatingBar {
   z-index: -1;
-  width: 200rem;
+  width: 180rem;
   height: 30rem;
   top: 30rem;
   left: -55rem;
