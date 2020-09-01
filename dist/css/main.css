@@ -64,11 +64,9 @@ body {
   text-transform: uppercase;
 }
 
-#aboutImage {
+#portraitImg {
   display: block;
-  height: 200px;
   width: 200px;
-  background-color: #3d5a80;
   text-align: center;
   margin: 0 3rem 0 0;
 }
