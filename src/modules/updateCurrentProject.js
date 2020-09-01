@@ -6,7 +6,6 @@ const updateCurrentProject = (selected) => {
 
   if (selected == "weightTracker") {
     imgEle.src = "./imgs/gifs/chartCapture.gif";
-    s;
     imgEle.alt = "Weight Tracker gif";
     textEle.innerHTML = `Weight tracking app using Chart.js
     <br/><br/>
