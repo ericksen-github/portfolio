@@ -9,7 +9,7 @@ const updateCurrentProject = (selected) => {
     imgEle.alt = "Weight Tracker gif";
     textEle.innerHTML = `Weight tracking app using Chart.js
     <br/><br/>
-    Record weight, calories, exercise, and protein to keep track over time of your progress and visualize 
+    Record weight, calories, exercise, and protein to track your progress over time of and visualize 
     the journey displayed on the chart.
     <br/><br/>
     Some of its features are: 
@@ -30,7 +30,7 @@ const updateCurrentProject = (selected) => {
     imgEle.alt = "Library gif";
     textEle.innerHTML = `Reading list app made with React
     <br/><br/>
-    Record books that you've read or wanting to read.
+    Record books that you've read or are wanting to read.
     <br/><br/>
     Some of its features are: 
     <br/><br/>
@@ -48,13 +48,13 @@ const updateCurrentProject = (selected) => {
   } else if (selected == "etch") {
     imgEle.src = "./imgs/gifs/etchAsketchCapture.gif";
     imgEle.alt = "Etch a Sketch gif";
-    textEle.innerHTML = `Etch a sketch app made using Javascript
+    textEle.innerHTML = `Etch A Sketch app made using Javascript
     <br/><br/>
-    Enjoy the function of an etch a sketch on your computer!
+    Enjoy the function of an Etch A Sketch on your computer!
     <br/><br/>
     Some of its features are: 
     <br/><br/>
-    <li>Draws just like an etch a sketch</li>
+    <li>Draws just like an Etch A Sketch</li>
     <li>Adjust board size to change board resolution</li>
     <li>Color choices that include black, a changing gradiant, or random colors for each new board pixel</li>
     <br/>
@@ -72,7 +72,7 @@ const updateCurrentProject = (selected) => {
     A basic calculator made as part of the front-end curriculum with The Odin Project.
     <br/><br/>
     It performs addition, subtraction, multiplication, and division operations. 
-    <br/>
+    <br/><br/>
     Check it out online 
         <a href="https://ericksen-github.github.io/calculator/">here</a>
     <br/><br/>
@@ -81,8 +81,8 @@ const updateCurrentProject = (selected) => {
     `;
   } else if (selected == "todo") {
     imgEle.src = "./imgs/gifs/todoCapture.gif";
-    imgEle.alt = "Todo List gif";
-    textEle.innerHTML = `Todo list tracker made using Javascript
+    imgEle.alt = "ToDo List gif";
+    textEle.innerHTML = `ToDo list tracker made using Javascript
     <br/><br/>
     Record items for various lists and have them organized into projects. 
     <br/><br/>
