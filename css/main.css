@@ -195,7 +195,8 @@ body {
   cursor: pointer;
 }
 
-#linkedinLogo {
+#linkedinLogo,
+#resumeImg {
   height: 5.5rem;
   width: 6rem;
   cursor: pointer;
@@ -344,7 +345,8 @@ footer {
     border-radius: 0.5rem;
   }
 
-  #linkedinLogo {
+  #linkedinLogo,
+  #resumeImg {
     margin: -0.5rem 0.25rem -0.5rem 0.25rem;
     height: 3.5rem;
     width: 3.5rem;
