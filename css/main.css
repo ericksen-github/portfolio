@@ -363,42 +363,26 @@ footer {
     padding: 1.75rem;
   }
 
-  #aboutTitle {
-    margin-bottom: 3rem;
-  }
-  #portraitImg {
-    display: none;
-  }
-  #aboutText {
-    font-size: 0.9rem;
-  }
-
-  #currentProjectText {
-    font-size: 0.9rem;
-  }
-
-  .imgWrap {
-    width: 15%;
-  }
-
-  #projectsGithubLinkText {
-    width: 100%;
-    padding: 1rem;
-    font-size: 1rem;
-    margin: 1rem;
-  }
-
   #navbar a {
     padding: 0.9rem;
     font-size: 0.9rem;
   }
 
+  #portraitImg {
+    display: none;
+  }
+
   #aboutTitle {
     font-size: 1.25rem;
+    margin-bottom: 3rem;
   }
 
   #aboutText {
     font-size: 0.8rem;
+  }
+
+  .imgWrap {
+    width: 15%;
   }
 
   #projectsTitle {
@@ -407,6 +391,23 @@ footer {
 
   #currentProjectText {
     width: 100%;
+    font-size: 0.8rem;
+  }
+
+  #projectsGithubLinkText {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #currentProjectText {
+    font-size: 0.7rem;
+  }
+
+  #projectsGithubLinkText {
     font-size: 0.8rem;
   }
 }
