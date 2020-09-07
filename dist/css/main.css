@@ -230,7 +230,7 @@ footer {
   text-align: center;
 }
 
-@media (max-device-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   #about {
     padding-top: 10rem;
   }
@@ -254,7 +254,7 @@ footer {
   }
 }
 
-@media (max-device-width: 900px) {
+@media only screen and (max-width: 900px) {
   .currentProjectContainer {
     display: block;
     margin-bottom: 2rem;
@@ -273,7 +273,7 @@ footer {
   }
 }
 
-@media (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
   .floatingBar {
     top: 20rem;
     left: -65rem;
@@ -308,7 +308,7 @@ footer {
   }
 }
 
-@media (max-device-width: 700px) {
+@media only screen and (max-width: 700px) {
   .imgWrap:hover .imgDescription,
   .active .imgDescription {
     height: 100%;
@@ -320,7 +320,7 @@ footer {
   }
 }
 
-@media (max-device-width: 600px) {
+@media only screen and (max-width: 600px) {
   .headerContainer a {
     font-size: 1.25rem;
   }
@@ -353,7 +353,7 @@ footer {
   }
 }
 
-@media (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .headerContainer a {
     font-size: 1.25rem;
   }
@@ -387,9 +387,7 @@ footer {
     font-size: 1rem;
     margin: 1rem;
   }
-}
 
-@media (max-device-width: 480px) {
   #navbar a {
     padding: 0.9rem;
     font-size: 0.9rem;
