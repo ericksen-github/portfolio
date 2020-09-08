@@ -83,9 +83,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   position: relative;
-  padding: 9rem 0px 8rem;
+  padding: 9rem 0 0 0;
   background-color: #f5f5f5;
 }
 
@@ -99,7 +100,6 @@ body {
   justify-content: center;
   padding: 2rem;
   background-color: #ffffff;
-  margin-bottom: 5rem;
   width: 90%;
 }
 
@@ -119,9 +119,8 @@ body {
 }
 
 .projectLinksContainer {
-  position: absolute;
-  bottom: 5rem;
   text-align: center;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 .imgWrap {
@@ -168,11 +167,10 @@ body {
 
 #projectsGithubLinkText {
   bottom: 0;
-  position: absolute;
   padding: 1rem;
   font-size: 1.15rem;
   text-align: center;
-  margin: 1rem;
+  margin: 0 1rem 1rem 1rem;
   width: 90%;
   background-color: #ffffff;
 }
@@ -247,7 +245,6 @@ footer {
 @media only screen and (max-width: 900px) {
   .currentProjectContainer {
     display: block;
-    margin-bottom: 2rem;
   }
 
   #currentProjectImg {
@@ -325,10 +322,6 @@ footer {
     width: 150px;
   }
 
-  .currentProjectContainer {
-    margin-bottom: 1rem;
-  }
-
   #githubLogo {
     margin: -0.5rem 0.25rem -0.5rem 0.25rem;
     height: 2rem;
@@ -375,10 +368,6 @@ footer {
     font-size: 0.8rem;
   }
 
-  .imgWrap {
-    width: 15%;
-  }
-
   #currentProjectText {
     width: 100%;
     font-size: 0.8rem;
@@ -386,9 +375,7 @@ footer {
 
   #projectsGithubLinkText {
     width: 100%;
-    padding: 1rem;
     font-size: 1rem;
-    margin: 1rem;
   }
 }
 
