@@ -15,7 +15,12 @@ for (let i = 0; i < links.length; i++) {
   links[i].addEventListener("click", (e) => {
     const current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
-    e.target.parentElement.className += " active";
+
+    if (e.target.parentElement.className == "projectLinksContainer") {
+      e.target.className += " active";
+    } else {
+      e.target.parentElement.className += " active";
+    }
     updateCurrentProject(linksArray[i]);
   });
 }
