@@ -50,18 +50,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15rem 0px 10rem;
   width: 100%;
+  padding: 14rem 0 2rem 0;
   background-color: #f5f5f5;
 }
 
 .sectionTitle {
   position: absolute;
-  top: 10rem;
+  top: 9rem;
   font-weight: bold;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+}
+
+#aboutContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2rem 0 2rem;
+  padding: 2rem;
+  background-color: #ffffff;
 }
 
 #portraitImg {
@@ -71,8 +80,8 @@ body {
 
 #aboutText {
   text-align: left;
-  width: 50%;
-  margin: 0 2rem 0 4rem;
+  width: 60%;
+  margin: 0 0 0 3rem;
   color: rgb(25, 25, 25);
   letter-spacing: 0.6px;
   font-size: 1.5rem;
@@ -97,7 +106,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  margin: 0 2rem 0 2rem;
   padding: 2rem;
   background-color: #ffffff;
 }
@@ -273,27 +282,32 @@ footer {
     display: block;
     text-align: center;
     width: 100%;
-    padding: 8rem 0px 5rem;
+    padding-top: 8rem;
   }
 
   #aboutTitle {
     position: relative;
     top: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  #aboutContainer {
+    display: block;
   }
 
   #portraitImg {
     position: relative;
+    display: block;
     margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   #aboutText {
     position: relative;
-    width: 90%;
+    display: block;
+    width: 100%;
     margin: auto;
     font-size: 1.5rem;
-    line-height: 120%;
   }
 }
 
