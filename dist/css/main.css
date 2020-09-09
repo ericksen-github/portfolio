@@ -12,9 +12,10 @@ body {
   z-index: 10;
   overflow: hidden;
   text-align: center;
-  box-shadow: inset 0px -3px 7px 0px #353e4d;
-  background: linear-gradient(to bottom, #293241 5%, #212c41 100%);
-  background-color: #293241;
+  box-shadow: inset 0px 0px 15px 3px #23395e;
+  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  background-color: #2e466e;
+  border: 1px solid #1f2f47;
   color: #f2f2f2;
   text-decoration: none;
 }
@@ -29,7 +30,7 @@ body {
 
 #navbar a:hover {
   color: black;
-  background-color: #98c1d9;
+  background-color: #8da6cf;
 }
 
 .sticky {
@@ -40,9 +41,10 @@ body {
 
 .borderBreak {
   height: 2rem;
-  box-shadow: inset 0px -3px 7px 0px rgb(67, 99, 141);
-  background: linear-gradient(to bottom, #3d5a80 5%, rgb(51, 84, 126) 100%);
-  background-color: #3d5a80;
+  box-shadow: inset 0px 0px 15px 3px #23395e;
+  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  background-color: #2e466e;
+  border: 1px solid #1f2f47;
 }
 
 #about {
@@ -82,7 +84,7 @@ body {
   text-align: left;
   width: 60%;
   margin: 0 0 0 3rem;
-  color: rgb(25, 25, 25);
+  color: rgb(0, 0, 0);
   letter-spacing: 0.6px;
   font-size: 1.5rem;
 }
@@ -218,9 +220,10 @@ footer {
   text-align: center;
   height: 2rem;
   line-height: 2rem;
-  box-shadow: inset 0px -3px 7px 0px rgb(67, 99, 141);
-  background: linear-gradient(to bottom, #3d5a80 5%, rgb(51, 84, 126) 100%);
-  background-color: #3d5a80;
+  box-shadow: inset 0px 0px 15px 3px #23395e;
+  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  background-color: #2e466e;
+  border: 1px solid #1f2f47;
   color: #f2f2f2;
   text-decoration: none;
 }
