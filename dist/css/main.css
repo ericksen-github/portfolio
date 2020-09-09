@@ -312,13 +312,16 @@ footer {
 }
 
 @media only screen and (max-width: 700px) {
+  .imgDescription {
+    color: #ffffff00;
+  }
+
   .imgWrap:hover .imgDescription,
   .active .imgDescription {
     height: 100%;
     width: 100%;
     bottom: 0%;
     background-color: #293241;
-    color: #293241;
     opacity: 0.4;
   }
 }
@@ -337,6 +340,10 @@ footer {
     width: 150px;
   }
 
+  .projectLinksContainer {
+    margin: 1.25rem 0 1.25rem 0;
+  }
+
   #githubLogo {
     height: 2rem;
     width: 2rem;
@@ -349,10 +356,6 @@ footer {
     height: 3.5rem;
     width: 3.5rem;
     margin: -0.5rem 0.25rem -0.5rem 0.25rem;
-  }
-
-  .projectLinksContainer {
-    margin: 1.25rem 0 1.25rem 0;
   }
 }
 
