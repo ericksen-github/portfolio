@@ -24,7 +24,7 @@ header {
   display: inline-block;
   margin-top: 1rem;
   font-size: 1.5rem;
-  color: #293241;
+  color: #000000;
   text-decoration: underline;
 }
 
@@ -45,7 +45,6 @@ header {
   color: #fff;
   background-color: #293241;
   border: 0.5rem solid #293241;
-  border-radius: 0.5rem;
   text-decoration: none;
   animation-name: bgColor;
   animation-delay: 1s;
@@ -67,7 +66,7 @@ header {
     color: white;
   }
   100% {
-    color: #293241;
+    color: #000000;
   }
 }
 
@@ -83,7 +82,7 @@ header {
   top: 30rem;
   left: -55rem;
   opacity: 0.85;
-  background-color: #3d5a80;
+  background-color: #2e466e;
   animation: 25s linear 0s infinite normal none running floatBar;
 }
 
