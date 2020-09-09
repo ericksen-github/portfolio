@@ -1,7 +1,3 @@
-header {
-  height: 90vh;
-}
-
 a:link {
   text-decoration: none;
   color: #3466a8;
@@ -12,26 +8,30 @@ a:visited {
   color: #3466a8;
 }
 
+header {
+  height: 90vh;
+}
+
 .headerContainer {
-  margin-top: 10rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  margin-top: 10rem;
 }
 
 .headerContainer a {
+  display: inline-block;
+  margin-top: 1rem;
   font-size: 1.5rem;
   color: #293241;
   text-decoration: underline;
-  margin-top: 1rem;
-  display: inline-block;
 }
 
 .headerText {
   display: inline-block;
-  font-size: 1.75rem;
   padding: 2.5rem;
+  font-size: 1.75rem;
   animation-name: textColor;
   animation-delay: 1.5s;
   animation-duration: 1s;
@@ -76,13 +76,13 @@ a:visited {
 }
 
 .floatingBar {
+  position: absolute;
   z-index: -1;
   width: 180rem;
   height: 30rem;
   top: 30rem;
   left: -55rem;
   opacity: 0.85;
-  position: absolute;
   background-color: #3d5a80;
   animation: 25s linear 0s infinite normal none running floatBar;
 }
