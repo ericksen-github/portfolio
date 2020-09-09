@@ -1,6 +1,6 @@
 html {
   font-family: sans-serif;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
   scroll-behavior: smooth;
 }
 
@@ -54,7 +54,7 @@ body {
   justify-content: center;
   width: 100%;
   padding: 14rem 0 2rem 0;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .sectionTitle {
@@ -97,7 +97,7 @@ body {
   flex-direction: column;
   width: 100%;
   padding: 9rem 0 0 0;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 #projectsTitle {
@@ -205,7 +205,7 @@ li {
 
 #contact {
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
 }
 
 .iconsContainer {
