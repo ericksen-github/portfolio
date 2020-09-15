@@ -8,14 +8,17 @@ body {
   overflow-x: hidden;
 }
 
-#navbar {
-  z-index: 10;
-  overflow: hidden;
-  text-align: center;
+.barDecoration {
   box-shadow: inset 0px 0px 15px 3px #23395e;
   background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
   background-color: #2e466e;
   border: 1px solid #1f2f47;
+}
+
+#navbar {
+  z-index: 10;
+  overflow: hidden;
+  text-align: center;
   color: #f2f2f2;
   text-decoration: none;
 }
@@ -42,10 +45,6 @@ body {
 .borderBreak,
 footer {
   height: 2rem;
-  box-shadow: inset 0px 0px 15px 3px #23395e;
-  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
-  background-color: #2e466e;
-  border: 1px solid #1f2f47;
 }
 
 #about {
