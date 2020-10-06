@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.44.1",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
   "main": "webpack.config.js",
@@ -23,5 +23,6 @@
     "url": "https://github.com/ericksen-github/portfolio/issues"
   },
   "homepage": "https://github.com/ericksen-github/portfolio#readme",
-  "description": ""
+  "description": "A portfolio website made to demonstrate web design skills and to provide demos and links to my various projects.",
+  "dependencies": {}
 }
