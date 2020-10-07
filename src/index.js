@@ -6,7 +6,7 @@ window.onscroll = function () {
   stickNavBar();
 };
 
-const linksArray = ["weightTracker", "library", "etch", "calc", "todo"];
+const linksArray = ["weightTracker", "library", "etch", "calc", "sort"];
 const links = document.getElementsByClassName("imgWrap");
 
 // Adds listeners to swap selected project with active class to the selected button (highlight it)

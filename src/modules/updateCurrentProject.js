@@ -79,27 +79,50 @@ const updateCurrentProject = (selected) => {
     Check out the source code
         <a href="https://github.com/ericksen-github/calculator/">here</a>
     `;
-  } else if (selected == "todo") {
-    imgEle.src = "./imgs/gifs/todoCapture.gif";
-    imgEle.alt = "ToDo List gif";
-    textEle.innerHTML = `ToDo list tracker made using Javascript
-    <br/><br/>
-    Record items for various lists and have them organized into projects. 
-    <br/><br/>
-    Some of its features are: 
-    <br/><br/>
-    <li>Adding new tasks and projects</li>
-    <li>Creating priorities for items</li>
-    <li>Delete finished list items</li>
-    <li>Persistent data using localStorage</li>
-    <br/>
-    Check it out online  
-        <a href="https://ericksen-github.github.io/todo_redo/">here</a>
-    <br/><br/>
-    Check out the source code
-        <a href="https://github.com/ericksen-github/todo_redo/">here</a>
-    `;
+  } else if (selected == "sort") {
+    imgEle.src = "./imgs/gifs/sortingCapture.gif";
+    imgEle.alt = "Sorting Project gif";
+    textEle.innerHTML = `Sorting Visualizer using Javascript
+      <br/><br/>
+      Visually represents various sorting methods for the user to see how different 
+      methods move through a data set. 
+      <br/><br/>
+      Some of its features are: 
+      <br/><br/>
+      <li>Generates arrays of random values</li>
+      <li>Sorts values in array based on differing methods</li>
+      <li>Visually adapts DOM to represent the algorithm moving through the data</li>
+      <li>Sort methods available include merge, bubble, quick, and heap sorting</li>
+      <br/>
+      Check it out online  
+          <a href="https://ericksen-github.github.io/sorting_project/">here</a>
+      <br/><br/>
+      Check out the source code
+          <a href="https://github.com/ericksen-github/sorting_project">here</a>
+      `;
   }
+
+  // } else if (selected == "todo") {
+  //   imgEle.src = "./imgs/gifs/todoCapture.gif";
+  //   imgEle.alt = "ToDo List gif";
+  //   textEle.innerHTML = `ToDo list tracker made using Javascript
+  //   <br/><br/>
+  //   Record items for various lists and have them organized into projects.
+  //   <br/><br/>
+  //   Some of its features are:
+  //   <br/><br/>
+  //   <li>Adding new tasks and projects</li>
+  //   <li>Creating priorities for items</li>
+  //   <li>Delete finished list items</li>
+  //   <li>Persistent data using localStorage</li>
+  //   <br/>
+  //   Check it out online
+  //       <a href="https://ericksen-github.github.io/todo_redo/">here</a>
+  //   <br/><br/>
+  //   Check out the source code
+  //       <a href="https://github.com/ericksen-github/todo_redo/">here</a>
+  //   `;
+  // }
 };
 
 export { updateCurrentProject };
