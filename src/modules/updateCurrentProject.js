@@ -64,21 +64,6 @@ const updateCurrentProject = (selected) => {
     Check out the source code
         <a href="https://github.com/ericksen-github/etch_a_sketch">here</a>
     `;
-  } else if (selected == "calc") {
-    imgEle.src = "./imgs/gifs/calculatorCapture.gif";
-    imgEle.alt = "Calculator gif";
-    textEle.innerHTML = `Basic calculator made using Javascript
-    <br/><br/>
-    A basic calculator made as part of the front-end curriculum with The Odin Project.
-    <br/><br/>
-    It performs addition, subtraction, multiplication, and division operations. 
-    <br/><br/>
-    Check it out online 
-        <a href="https://ericksen-github.github.io/calculator/">here</a>
-    <br/><br/>
-    Check out the source code
-        <a href="https://github.com/ericksen-github/calculator/">here</a>
-    `;
   } else if (selected == "sort") {
     imgEle.src = "./imgs/gifs/sortingCapture.gif";
     imgEle.alt = "Sorting Project gif";
@@ -100,7 +85,43 @@ const updateCurrentProject = (selected) => {
       Check out the source code
           <a href="https://github.com/ericksen-github/sorting_project">here</a>
       `;
+  } else if (selected == "profiles") {
+    imgEle.src = "./imgs/gifs/profilesCapture.gif";
+    imgEle.alt = "Github Profiles gif";
+    textEle.innerHTML = `GitHub Profiles
+    <br/><br/>
+    Allows a user to search for a github profile and returns basic info on that profile
+    <br/><br/>
+    Some of its features are: 
+      <br/><br/>
+      <li>Uses the GitHub API to pull data from searched profile</li>
+      <li>Creates card showing user info such as follower count and repos</li>
+      <li>Links to individual repositories that are pulled onto the card</li>
+      <br/>
+    Check it out online 
+        <a href="https://ericksen-github.github.io/github_profiles/">here</a>
+    <br/><br/>
+    Check out the source code
+        <a href="https://github.com/ericksen-github/github_profiles">here</a>
+    `;
   }
+
+  // else if (selected == "calc") {
+  //   imgEle.src = "./imgs/gifs/calculatorCapture.gif";
+  //   imgEle.alt = "Calculator gif";
+  //   textEle.innerHTML = `Basic calculator made using Javascript
+  //   <br/><br/>
+  //   A basic calculator made as part of the front-end curriculum with The Odin Project.
+  //   <br/><br/>
+  //   It performs addition, subtraction, multiplication, and division operations.
+  //   <br/><br/>
+  //   Check it out online
+  //       <a href="https://ericksen-github.github.io/calculator/">here</a>
+  //   <br/><br/>
+  //   Check out the source code
+  //       <a href="https://github.com/ericksen-github/calculator/">here</a>
+  //   `;
+  // }
 
   // } else if (selected == "todo") {
   //   imgEle.src = "./imgs/gifs/todoCapture.gif";
