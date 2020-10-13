@@ -6,7 +6,7 @@ window.onscroll = function () {
   stickNavBar();
 };
 
-const linksArray = ["weightTracker", "library", "etch", "profiles", "sort"];
+const linksArray = ["sort", "weightTracker", "profiles", "library", "etch"];
 const links = document.getElementsByClassName("imgWrap");
 
 // Adds listeners to swap selected project with active class to the selected button (highlight it)
@@ -25,4 +25,4 @@ for (let i = 0; i < links.length; i++) {
   });
 }
 
-updateCurrentProject("weightTracker");
+updateCurrentProject("sort");

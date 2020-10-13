@@ -125,7 +125,7 @@ footer {
   margin-left: 2rem;
   color: rgb(25, 25, 25);
   letter-spacing: 0.6px;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 li {
@@ -233,10 +233,6 @@ footer {
 
   #aboutText {
     font-size: 1.4rem;
-  }
-
-  #currentProjectText {
-    font-size: 1.15rem;
   }
 
   .imgWrap:hover .imgDescription,
