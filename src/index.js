@@ -1,5 +1,6 @@
 import { stickNavBar } from "./modules/navbar";
 import { updateCurrentProject } from "./modules/updateCurrentProject";
+import { scrollAnimation } from "./modules/scrollAnimation";
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function () {
@@ -26,3 +27,4 @@ for (let i = 0; i < links.length; i++) {
 }
 
 updateCurrentProject("sort");
+scrollAnimation();
